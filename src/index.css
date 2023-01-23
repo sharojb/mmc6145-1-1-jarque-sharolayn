@@ -1,14 +1,23 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: League Spartan,sans-serif;
   place-items: center;
   min-width: 420px;
   background-color: #eddbdb9e;
+  width: 100%;
+  height: 100%;
 }
 
 main {
   display: block;
   padding-bottom: 60px;
+  width: 100%;
+  height: 100%;
 }
 
 :root {
@@ -18,7 +27,7 @@ main {
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #eddbdb9e;
   background-color: #242424;
 
   font-synthesis: none;
@@ -44,7 +53,6 @@ header {
   align-items: center;
   margin: auto;
   width: 100%;
-
 }
 
 a {
@@ -76,14 +84,6 @@ a:-webkit-any-link {
   align-items: center;
   margin: auto;
   width: 100%;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -175,9 +175,14 @@ button:focus-visible {
 }
 
 footer {
-  margin: var(--space);
-  margin: auto;
-  text-align: center;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   background-color: #eddbdb9e;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   width: 100%;
+   padding: 20px;
 }
 
 @media (prefers-color-scheme: light) {

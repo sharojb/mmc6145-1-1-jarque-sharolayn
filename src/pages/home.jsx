@@ -22,6 +22,8 @@ export default function Home() {
               </div>
             </div>
           </div>
+          </Project>
+          <Project>
           <div>
             <h2>Group Project</h2>
             <div className='polaroid'>
