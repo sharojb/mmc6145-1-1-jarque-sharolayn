@@ -4,10 +4,12 @@ import Footer from '../components/footer'
 
 export default function About() {
     return (
-    <body>
-        <h1 className={styles.placeholder}>About Me</h1>
-        <Description />
-        <Footer />
-    </body>
- )
+        <body>
+            <main>
+                <h1 className={styles.placeholder}>About Me</h1>
+                <Description />
+            </main>
+            <Footer />
+        </body>
+    )
 } 
